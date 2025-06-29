@@ -1,7 +1,7 @@
 {
   "name": "realworld-react-fsd",
   "private": true,
-  "version": "1.2.0",
+  "version": "1.2.1",
   "scripts": {
     "start": "cross-env NODE_ENV=development webpack serve",
     "build:dev": "cross-env NODE_ENV=development webpack",
@@ -62,7 +62,6 @@
     "css-loader": "7.1.2",
     "cypress": "^14.4.1",
     "dependency-cruiser": "^16.3.3",
-    "dotenv": "^16.4.7",
     "dotenv-cli": "^8.0.0",
     "eslint": "8.57.0",
     "eslint-config-airbnb": "19.0.4",
