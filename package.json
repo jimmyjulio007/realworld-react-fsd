@@ -1,11 +1,11 @@
 {
   "name": "realworld-react-fsd",
   "private": true,
-  "version": "1.2.0",
+  "version": "1.2.1",
   "scripts": {
-    "start": "cross-env NODE_ENV=development webpack serve",
-    "build:dev": "cross-env NODE_ENV=development webpack",
-    "build:prod": "cross-env NODE_ENV=production webpack",
+    "start": "node init && cross-env NODE_ENV=development webpack serve",
+    "build:dev": "node init && cross-env NODE_ENV=development webpack",
+    "build:prod": "node init && cross-env NODE_ENV=production webpack",
     "analyze": "cross-env NODE_ENV=development webpack analyzer=true",
     "test": "jest",
     "eslint": "eslint src --fix --ext ts,tsx --cache --report-unused-disable-directives",
@@ -62,7 +62,6 @@
     "css-loader": "7.1.2",
     "cypress": "^14.4.1",
     "dependency-cruiser": "^16.3.3",
-    "dotenv": "^16.4.7",
     "dotenv-cli": "^8.0.0",
     "eslint": "8.57.0",
     "eslint-config-airbnb": "19.0.4",
